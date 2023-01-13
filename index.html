@@ -1,160 +1,138 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.108.0">
-    <title>Portfolio - Home</title>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="description" content="">
+    	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    	<meta name="generator" content="Hugo 0.108.0">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
+    	<title>Portfolio - Home
+		</title>
 
-    <link href="./bootstrap-assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    	<link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/pricing/">
+    	<link href="./bootstrap-assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    	<link href="styles.css" rel="stylesheet">
+  	</head>
 
-<!--    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+  	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  			<symbol id="check" viewBox="0 0 16 16">
+   				<title>Check
+				</title>
+    			<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  			</symbol>
+		</svg>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+		<div class="container py-3">
+  			<header>
+    			<div class="d-flex flex-column flex-md-row align-items-center pb-1 mb-4">
+    				<h3 class="d-flex align-items-center text-dark text-decoration-none">
+        				<span class="fs-4">MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN - Sept 2022
+						</span>
+    				</h3>
+					<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+    					<a class="me-5 fs-3 py-2 nav-link-active" href="https://rd1r0cc0.github.io">Home
+						</a>
+						<a class="me-5 fs-3 py-2 nav-link" href="https://rd1r0cc0.github.io/projects.html">Projects
+						</a>
+    				</nav>
+    			</div>
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
+    			<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      				<h1 class="display-4 fw-normal">Hello There!
+					</h1>
+      				<p class="fs-5 text-muted">I am Roger "Roc" Di Rocco, and welcome to my GitHub Pages where you can find out a little more about me in my short video and bio below, as well as a few Project Exercises and associated repositories I worked on for MIT's xPRO Professional Certificate in Coding: Full Stack Development with MERN Boot Camp.  To get to my projects, just click on the link above.
+					</p>
+    			</div>
+  			</header>
 
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
+  			<main>
+    			<div class="row row-cols-1 row-cols-md-1 mb-3 text-center">
+					<div class="col">
+					</div>
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
+    				<div class="col">
+        				<div class="card mb-4 rounded-3 shadow-sm">
+          					<div class="card-header py-3">
+            					<h4 class="my-0 fw-normal">Video Introduction
+								</h4>
+          					</div>
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
+          					<div class="card-body">
+								<iframe width="720" height="405" src="https://www.youtube.com/embed/-mFXgZLQFI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+								</iframe>            		
+								<button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="location.href=`https://youtu.be/-mFXgZLQFI4`">Link to video: https://youtu.be/-mFXgZLQFI4
+								</button>
+          					</div>
+        				</div>
+      				</div>
+    			</div>
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
--->
-    
-    <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol id="check" viewBox="0 0 16 16">
-    <title>Check</title>
-    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-  </symbol>
-</svg>
+				<div class="row row-cols-1 row-cols-md-1 mb-3 text-center">
+					<div class="col">
+					</div>
 
-<div class="container py-3">
-  <header>
-    <div class="d-flex flex-column flex-md-row align-items-center pb-1 mb-4">
-    	<h3 class="d-flex align-items-center text-dark text-decoration-none">
-        	<span class="fs-4">MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN - Sept 2022</span>
-    	</h3>
-		<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-    		<a class="me-5 fs-3 py-2 nav-link-active" href="https://rd1r0cc0.github.io">Home</a>
-			<a class="me-5 fs-3 py-2 nav-link" href="https://rd1r0cc0.github.io/projects.html">Projects</a>
-    	</nav>
-    </div>
-
-    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">Hello There!</h1>
-      <p class="fs-5 text-muted">I am Roger "Roc" Di Rocco, and welcome to my GitHub Pages where you can find out a little more about me in my short video and bio below, as well as a few Project Exercises and associated repositories I worked on for MIT's xPRO Professional Certificate in Coding: Full Stack Development with MERN Boot Camp.  To get to my projects, just click on the link above.</p>
-    </div>
-  </header>
-
-  <main>
-    <div class="row row-cols-1 row-cols-md-1 mb-3 text-center">
-		<div class="col">
-		</div>
-    	<div class="col">
-        	<div class="card mb-4 rounded-3 shadow-sm">
-          		<div class="card-header py-3">
-            		<h4 class="my-0 fw-normal">Video Introduction</h4>
-          		</div>
-          		<div class="card-body">
-					<iframe width="720" height="405" src="https://www.youtube.com/embed/-mFXgZLQFI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            		
-					<button type="button" class="w-100 btn btn-lg btn-outline-primary" onclick="location.href=`https://youtu.be/-mFXgZLQFI4`">Link to video: https://youtu.be/-mFXgZLQFI4</button>
-          		</div>
-        	</div>
-      	</div>
-    </div>
-
-	<div class="row row-cols-1 row-cols-md-1 mb-3 text-center">
-		<div class="col">
-		</div>
-		<div class="col">
-			<div class="card mb-4 rounded-3 shadow-sm border-primary">
-				<div class="card-header py-3 text-bg-primary border-primary">
-					<h4 class="my-0 fw-normal">Roger Di Rocco Bio</h4>
+					<div class="col">
+						<div class="card mb-4 rounded-3 shadow-sm border-primary">
+							<div class="card-header py-3 text-bg-primary border-primary">
+								<h4 class="my-0 fw-normal">Roger Di Rocco Bio
+								</h4>
+							</div>
+						
+							<div class="card-body">
+								<img src="./images/OfficialPhoto.jpg" />
+			  					<ul class="list-unstyled mt-3 mb-4">
+									<li>GitHub Username:  rd1r0cc0</li>
+									<li><a href="https://www.linkedin.com/in/roger-di-rocco">LinkedIn: www.linkedin.com/in/roger-di-rocco</a></li>
+									<li>Email: roger.dirocco@gmail.com</li>
+			  					</ul>
+			  					<button type="button" class="w-100 btn btn-lg btn-primary" onclick="location.href=`https://www.linkedin.com/in/roger-di-rocco`">Contact Me via LinkedIn</button>
+							</div>
+		  				</div>
+					</div>
 				</div>
-				<div class="card-body">
-					<img src="./images/OfficialPhoto.jpg" />
-			  		<ul class="list-unstyled mt-3 mb-4">
-						<li>GitHub Username:  rd1r0cc0</li>
-						<li><a href="https://www.linkedin.com/in/roger-di-rocco">LinkedIn: www.linkedin.com/in/roger-di-rocco</a></li>
-						<li>Email: roger.dirocco@gmail.com</li>
-			  		</ul>
-			  		<button type="button" class="w-100 btn btn-lg btn-primary" onclick="location.href=`https://www.linkedin.com/in/roger-di-rocco`">Contact Me via LinkedIn</button>
-				</div>
-		  	</div>
-		</div>
-	</div>
 
-    <h2 class="display-6 text-center mb-4">About Me</h2>
+   				<h2 class="display-6 text-center mb-4">About Me
+				</h2>
 
-	<p class="fs-5">Thanks to an Air Force ROTC Scholarship, in 1998, I received a B.S. in Computer Engineering from the University of Florida.  At that time a paradigm shift was happening from linear programming to object-oriented programming and design.  I learned how to program in assembly and C/C+, and just before graduating I learned how to program in a new language at the time, called Java.  In that same year I graduated, I was commissioned as an officer in the Air Force in the field of computers, communications, command & control and information, holding several positions over the next ten years leading teams deploying, operating, and maintaining computers, communications systems and networks from the tactical level in the desert to Air Force bases across the US and unclassified and classified networks that span the globe.  I also was fortunate enough to be a systems engineer for embedded computer and network systems on F-15 fighter jets as well as satellite ground stations for GPS and other military satellites.  I then left the military after 10 years and for the next 5 years I was a contractor and then a government civilian employee for the Air Force.  I was a systems engineer on cryptographic systems, both embedded and secure/classified networks.  In the last 10 years, I was fortunate enough to be a part of a movement to modernize how the Air Force leverages information technology and the cloud, having worked with the Air Force’s Chief Software Officer to bring the Agile and CI/CD Software Factory Concept at scale to the Air Force enterprise (DoD Platform One).  For the last three years and through today, I have taken all that I’ve learned and am now helping the Army modernize its IT infrastructure and move to the cloud, specifically by leading a 30-person team building and operating a scalable cloud-based data science platform to lower the barrier to entry for the Army’s data analysts, data scientists and data engineers.</p>
-	<p class="fs-5">I am currently enrolled in MIT's xPRO Professional Certificate in Coding: Full Stack Development with MERN Boot Camp, because I wanted to get back to coding.  It's one thing to understand the latest software development techniques, concepts and practices, but it's a whole other level to actually roll up your sleeves and do it!  I want to not just lead the team, but I want to be hands-on next to them!!</p>
-  </main>
+				<p class="fs-5">Thanks to an Air Force ROTC Scholarship, in 1998, I received a B.S. in Computer Engineering from the University of Florida.  
+					At that time a paradigm shift was happening from linear programming to object-oriented programming and design.  
+					I learned how to program in assembly and C/C+, and just before graduating I learned how to program in a new language at the time, called Java.  
+					In that same year I graduated, I was commissioned as an officer in the Air Force in the field of computers, communications, command & control and information, 
+					holding several positions over the next ten years leading teams deploying, operating, and maintaining computers, 
+					communications systems and networks from the tactical level in the desert to Air Force bases across the US and unclassified and classified networks that span the globe.  
+					I also was fortunate enough to be a systems engineer for embedded computer and network systems on F-15 fighter jets as well as satellite ground stations for GPS and other military satellites.  
+					I then left the military after 10 years and for the next 5 years I was a contractor and then a government civilian employee for the Air Force.  
+					I was a systems engineer on cryptographic systems, both embedded and secure/classified networks.  
+					In the last 10 years, I was fortunate enough to be a part of a movement to modernize how the Air Force leverages information technology and the cloud, 
+					having worked with the Air Force’s Chief Software Officer to bring the Agile and CI/CD Software Factory Concept at scale to the Air Force enterprise (DoD Platform One).  
+					For the last three years and through today, I have taken all that I’ve learned and am now helping the Army modernize its IT infrastructure and move to the cloud, 
+					specifically by leading a 30-person team building and operating a scalable cloud-based data science platform to lower the barrier to entry for the Army’s data analysts, 
+					data scientists and data engineers.
+				</p>
+				<p class="fs-5">I am currently enrolled in MIT's xPRO Professional Certificate in Coding: Full Stack Development with MERN Boot Camp, because I wanted to get back to coding.  
+					It's one thing to understand the latest software development techniques, concepts and practices, but it's a whole other level to actually roll up your sleeves and do it!  
+					I want to not just lead the team, but I want to be hands-on next to them!!
+				</p>
+  			</main>
 
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="./bootstrap-assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-        <small class="d-block mb-3 text-muted">&copy; 2017–2022</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>This site built with Bootstrap v5.3.</h5>
-      </div>
-      <div class="col-6 col-md">
-      </div>
-    </div>
-  </footer>
-</div>
+  			<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    			<div class="row">
+      				<div class="col-12 col-md">
+        				<img class="mb-2" src="./bootstrap-assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+        				<small class="d-block mb-3 text-muted">&copy; 2017–2022
+						</small>
+      				</div>
 
+      				<div class="col-6 col-md">
+        				<h5>This site built with Bootstrap v5.3.
+						</h5>
+      				</div>
 
-    
-  </body>
+					<div class="col-6 col-md">
+      				</div>
+    			</div>
+  			</footer>
+		</div> 
+  	</body>
 </html>
